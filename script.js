@@ -22,7 +22,7 @@ function showTable(data){
         <h3>${productName}</h3>
         <span>CODE : L-${id}</span>
         <h6>${desc}</h6>
-        <h4><bold>${price} $ </bold></h4>
+        <h4><bold> PRICE : ${price} $ </bold></h4>
         <th><button id="addToCart">Add To Cart </button></th>
         </tr>`
         let table = document.getElementById('table');
